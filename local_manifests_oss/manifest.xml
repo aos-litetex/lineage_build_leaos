@@ -28,10 +28,14 @@
             fetch="https://github.com/Huawei-Dev"
             revision="android@13" />
 
-     <!-- device -->
+    <!-- device -->
+    <!-- 
     <project path="device/huawei/anne" name="android_device_huawei_anne-hisi" remote="iceows" revision="lineage-20" />
+    <project path="device/huawei/hi6250-9-common" name="android_device_huawei_hi6250-9-common-hisi" remote="iceows" revision="lineage-20" />  
+    -->
+    <project path="device/huawei/anne" name="android_device_huawei_anne" remote="iceows" revision="lineage-20.0" />
     <project path="device/huawei/figo" name="android_device_huawei_figo" remote="iceows" revision="lineage-20.0" />
-    <project path="device/huawei/hi6250-9-common" name="android_device_huawei_hi6250-9-common-hisi" remote="iceows" revision="lineage-20" />
+    <project path="device/huawei/hi6250-9-common" name="android_device_huawei_hi6250-9-common" remote="iceows" revision="lineage-20.0" />
     
     <project path="device/huawei/stanford" name="android_device_huawei_stanford" remote="iceows" revision="lineage-20" />
     <project path="device/huawei/hi3660-common" name="android_device_huawei_hi3660-common-hisi" remote="iceows" revision="lineage-20" />
@@ -47,14 +51,21 @@
     -->
 
     <!-- hardware -->
+    <!-- 
     <project path="hardware/hisi" name="android_hardware_hisi-hisi" remote="iceows" revision="lineage-20" />
     <project path="hardware/huawei" name="android_hardware_huawei-hisi" remote="iceows" revision="lineage-20" />
+    -->
+    <project path="hardware/hisi" name="android_hardware_hisi" remote="iceows" revision="lineage-20.0" />
+    <project path="hardware/huawei" name="android_hardware_huawei" remote="iceows" revision="lineage-20.0" />
     
      <!-- sepolicy -->
     <project path="device/hisi/sepolicy" name="android_device_hisi_sepolicy" remote="iceows" revision="lineage-20.0" />
     
     <!-- kernel -->
+    <!--
     <project path="kernel/huawei/hi6250-9" name="android_kernel_huawei_hi6250-9-hisi" remote="iceows" revision="lineage-20" />
+    -->
+    <project path="kernel/huawei/hi6250-9" name="android_kernel_huawei_hi6250-9" remote="iceows" revision="lineage-20.0" />
     <project path="kernel/huawei/hi6250-8" name="android_kernel_huawei_hi6250-8" remote="github-hisi" revision="lineage-20" />
     <project path="kernel/huawei/hi3660" name="android_kernel_huawei_hi3660" remote="huawei-dev" revision="android@13" />
 
