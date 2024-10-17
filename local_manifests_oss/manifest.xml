@@ -4,10 +4,6 @@
   <!-- Iceows repo --> 
   <remote name="iceows" fetch="https://github.com/iceows/" />
 
-  <!-- Google Apps support --> 
-  <remote name="gitlab" fetch="https://gitlab.com/" />
-  <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="tau" />
-
   <!-- GCamGO support -->
   <project path="packages/apps/GcamGo" name="android_packages_apps_GCamGOPrebuilt" remote="iceows" revision="main" />
 
@@ -56,6 +52,7 @@
     <project path="hardware/huawei" name="android_hardware_huawei-hisi" remote="iceows" revision="lineage-20" />
     -->
     <project path="hardware/hisi" name="android_hardware_hisi" remote="iceows" revision="lineage-20.0" />
+    <project path="hardware/hisi_fm" name="android_hardware_hisi_fm" remote="iceows" revision="lineage-20.0" />
     <project path="hardware/huawei" name="android_hardware_huawei" remote="iceows" revision="lineage-20.0" />
     
      <!-- sepolicy -->
