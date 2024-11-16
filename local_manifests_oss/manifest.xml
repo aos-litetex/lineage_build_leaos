@@ -80,5 +80,6 @@
     <!-- clang -->
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="iceows" revision="main" />
     <project path="prebuilts/clang/host/linux-x86/clang-r346389c" name="android_prebuilts_clang_host_linux-x86_clang-r346389c" remote="iceows" revision="main" />
-
+    <project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-r353983c" remote="iceows" revision="main" />
+    
 </manifest>
