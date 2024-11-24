@@ -52,7 +52,7 @@ START=`date +%s`
 BUILD_DATE="$(date +%Y%m%d)"
 
 export OUT_DIR=~/build/LeaOS
-
+export WITH_ADB_INSECURE=true
 
 prep_build() {
     echo "Preparing local manifests"
@@ -157,6 +157,9 @@ then
     echo "Setting up build environment"
     source build/envsetup.sh &> /dev/null
     echo ""
+    echo "Build dir : ${OUT_DIR} "
+    echo "ADB insecure : ${WITH_ADB_INSECURE} "
+    echo
 
 else
     echo "Prep build" 
